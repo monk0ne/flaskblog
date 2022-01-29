@@ -1,9 +1,7 @@
-import sqlite3
-from flask import Flask, render_template, request, url_for, flash, redirect
-from werkzeug.exceptions import abort
+from flask import render_template, request, url_for, flash, redirect
 
-from app import *
-from app.db_methods import *
+from application import app
+from application.db_methods import *
 
 
 @app.route('/')
