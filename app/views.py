@@ -1,7 +1,7 @@
 from flask import render_template, request, url_for, flash, redirect
 
-from app import app
 from app.db_methods import *
+from app import app
 
 
 @app.route('/')
